@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel and Tourism</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  body{  
+    background-image:url("images/1.jpeg");  
+  }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="navigation">
+        <div class="logo">Travel & Tourism</div>
+      </div>
+    </div>
+    <nav class="nav-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr>
+  <main>
+    <!-- SECTION HERO -->
+    <section class="section-hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="heading heading--1 margin-bottom">life is short and world is wide the sooner you start exploring it the better</h1>
+          <button class="btn">Explore now</button>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION SEARCH -->
+    <section class="section-search">
+      <div class="container search-box">
+        <div class="wrapper">
+          <h3>Destination</h3>
+          <div class="custom-select">
+            <select>
+              <option value="england">England</option>
+              <option value="france">France</option>
+              <option value="italy">Italy</option>
+              <option value="india">India</option>
+              <option value="india">Spain</option>
+              <option value="maldives">Maldives</option>
+            </select>
+              <span class="arrow"></span>
+          </div>
+        </div>
+        <div class="wrapper">
+          <h3>Date</h3>
+          <div class="custom-date">
+            <input type="date" id="date" />
+            <img src="./images/calendar.svg" alt="" class="calender-icon" />
+          </div>
+        </div>
+        <div class="wrapper">
+          <h3>Average Price</h3>
+          <div class="custom-select">
+            <select>
+              <option value="$200">$200 - $500</option>
+              <option value="$500">$500 - $1000</option>
+              <option value="$1000">$1000 - $2000</option>
+            </select>
+              <span class="arrow"></span>
+          </div>
+        </div>
+        <button class="btn">Search</button>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
