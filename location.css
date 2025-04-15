@@ -1,0 +1,74 @@
+.container{
+  width:100%;
+  /* margin-bottom:10px; */
+  }
+  .row{
+    margin-top: 20px;
+  }
+  .col{
+    height: 30rem;
+  }
+  .text{
+    display: flex;
+    gap: 45px;
+  }
+  .text1, .text2{
+    width: 60%;
+  }
+  p{
+    font-size: 1rem;
+    
+  }
+
+  .services{
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+    
+}
+
+.info>div>div>h4{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.info>div>p,.info>div>div>p{
+    color: gray;
+    font-size: 1rem;
+}
+
+.about,.Support,.FAQ{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3vh;
+}
+.about>p,.Support>p,.FAQ>p{
+    margin: 0;
+    padding: 0;
+}
+.logo,.m{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.m{
+    width: 20vw;
+    color: #F3F7EC;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+}
+
+.links{
+    padding-top: 2.5vh;
+    display: flex;
+    gap: 0.5vw;
+}
+
+.links>img{
+    height: 3vh;
+}

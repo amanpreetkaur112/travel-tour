@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.why{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:10px;
+    font-weight: 500;
+    font-size: 13px;
+    color:rgb(144, 169, 230);
+}
+.we_ensure1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.we_ensure2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:x-large;
+    letter-spacing: 1px;
+    padding-bottom:25px;
+}
+.pros{
+    width:100%;
+    height:35vh;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.pros-cont-1{
+    width:20%;
+    height:35vh;
+    /* border: black 2px solid; */
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     background-color: rgb(243, 237, 237);
+     padding: 10px 0;
+}
+.icon{
+    height:45px;
+    width: 45px;
+    display: flex;
+    border-radius: 50px;
+    border:white 3px solid;
+    background-color: rgb(207, 206, 228);
+    justify-content: center;
+    align-items: center;
+}
+.fa-crown{
+    font-size: 20px;
+    color:rgb(88, 88, 250);
+}
+.fa-envelope{
+    font-size: 20px;
+    color:rgb(88, 88, 250);
+}
+.fa-earth-americas{
+    font-size: 20px;
+    color:rgb(88, 88, 250);
+}
+.fa-arrow-right-arrow-left{
+    font-size: 20px;
+    color:rgb(88, 88, 250);
+}
+.pros_heading{
+    font-weight: 500;
+    padding: 17px 0;
+    font-size: 18px;
+}
+.line{
+    color:rgb(134, 129, 129);
+    font-size: 13px;
+    line-height: 17px;
+}
+.why-pic1{
+    display:flex;
+    justify-content:space-evenly;
+    height:40vh;
+    width:100%;
+    /* border: black 2px solid; */
+    padding:20px 0;
+    /* margin-top: 20px ; */
+}
+.why-pic2{
+    display:flex;
+    justify-content:space-evenly;
+    height:40vh;
+    width:100%;
+    /* border: black 2px solid; */
+    padding: 10px 0;
+    margin-bottom: 40px;
+}
+img{
+    border-radius: 10px;
+}
+.way-maldives{
+    width:40%;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    flex-direction: column;
+    gap:0.5em;
+
+}
+.way-maldives > h2{
+    justify-content:center;
+}
+.things-in-maldives{
+    width: 100%;
+    height:70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.things-in-maldives-1{
+    width:21%;
+    /* justify-content: space-evenly; */
+    /* border: black 2px solid; */
+}
+.things-in-maldives-1-img{
+    height:41vh;
+   
+
+}
+.things-in-maldives-1-detail{
+    height:30vh;
+    padding:10px;
+    gap:2em;
+}
+.fa-star{
+    color:rgb(7, 123, 104);
+}
+.adventure-tour{
+    padding-bottom:10px;
+}
+.reserve-section{
+   
+    display: flex;
+    height:9vh;
+    justify-content: space-evenly;
+}
+.per-adult{
+    width:70%;
+    flex-direction:column;
+}
+.reserve-btn{
+    width:25%;
+    display: flex;
+}
+.reserve-btn > button{
+    justify-content: center;
+    background-color: rgb(226, 184, 17);
+    height:40px;
+    width:110px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* footer */
+.container-wave{
+    background-image: url("./images/sea-wave_c.png");
+    width:100%;
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    padding: 40px 0;
+    margin-bottom:30px ;
+    }
+  .do-you{
+    font-size: 10px;
+    line-height: 40px;
+  }
+  .contact-us{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+  }
+  .info{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  .provide{
+    padding-bottom: 30px;
+  }
+  .mail-container{
+    width:33%;
+    height:8vh;
+    overflow: hidden;
+    background-color: rgba(71, 103, 242, 0.4); /* Fallback color */
+    background-color: rgba(101, 137, 245, 0.4);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:white 2px solid;
+  }
+  .mail{
+    width:60%;
+    height:6vh;
+    background-color: rgba(166, 181, 247, 0.4); /* Fallback color */
+    background-color: rgba(195, 208, 245, 0.4);
+    border-radius: 20px;
+    padding-left: 7px;
+    border: none;
+    font-size: 14px;
+  }
+  .submit{
+    width:28%;
+    height:6vh;
+    border-radius: 20px;
+    background-color: white;
+    color: blue;
+    border: none;
+  }
+  .fa-envelope{
+    font-size: 13px;
+  }
+  .footer-details{
+    display: flex;
+    height:35vh;
+    width:100%;
+    justify-content: space-evenly;
+  }
+  .detail1{
+    height:35vh;
+    width:28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .detail1 > h5{
+    font-size: 13px;
+    padding: 10px 0;
+  }
+  .detail1>p{
+    color: rgb(108, 105, 105);
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+  .detail1 > h4{
+    font-size: 16px;
+    padding: 4px 0;
+  }
+  .detail2{
+    display: flex;
+    width:55%;
+    justify-content: flex-end;
+    line-height: 28px;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-1{
+    width:25%;
+    height:35vh;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-2{
+    width:25%;
+    height:35vh;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-3{
+    width:25%;
+    height:35vh;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-1 >ul{
+    list-style: none;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-2 >ul{
+    list-style: none;
+    color:rgb(99, 92, 92);
+  }
+  .detail2-3 >ul{
+    list-style: none;
+    text-decoration: none;
+    color:rgb(99, 92, 92);
+  }
+   li>a{
+    text-decoration: none;
+    color:rgb(99, 92, 92);
+  }
+  .hrl{
+    color:black;
+  }
+  .rights{
+    display: flex;
+    font-size: 13px;
+  }
+  .r1{
+   width:50%;
+  }
+  .social-m{
+    width:50%;
+    display: flex;
+    justify-content:center;
+  }
+  .fa-instagram{
+    padding: 0 6px;
+  }
+  .fa-facebook{
+    padding: 0 9px;
+  }
+  .hrl2{
+   margin: 20px;
+  }
