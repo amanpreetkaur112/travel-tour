@@ -59,3 +59,7 @@ Let’s make this better together!
 
 ## 📄 License
 This project is released under the MIT License, so you're free to use, modify, and distribute it.
+
+## Declaration
+This was a group project for my Web Technology Project.
+
